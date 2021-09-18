@@ -1,0 +1,55 @@
+.header-top {
+    width: 100%;
+    height: auto;
+    background: var(--gray50);
+}
+
+.header-top_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    inline-size: 80.9375rem;
+    block-size: 5.625rem;
+    margin: auto;
+}
+
+.header-top_container a {
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 1.3125rem;
+    color: var(--white);
+    text-decoration: none;
+    padding: 2.0625rem 1.49rem;
+}
+
+.principal-logo {
+    inline-size: 11.25rem;
+    block-size: 2.5rem;
+    margin-right: 1.4rem;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.border-transparent {
+    border: .1rem var(--white) solid;
+    border-radius: .2rem;
+    padding: .8rem 1.6rem !important;
+    font-size: .9rem !important;
+}
+
+
+.border-transparent:hover {
+    padding: .9rem 1.7rem !important;
+    transition: .4s;
+}
