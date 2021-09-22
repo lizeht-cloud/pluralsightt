@@ -1,0 +1,38 @@
+.insights {
+    inline-size: 100%;
+    block-size: auto;
+    background: var(--gray40);
+}
+
+.container-insghts {
+    inline-size: 80.9375rem;
+    block-size: 17rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-insights {
+    display: flex;
+    justify-content: space-around;
+    gap: 25rem;
+    margin-right: 4.8rem;
+    
+}
+
+.div-insights p {
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.enlace-try {
+    text-decoration: none;
+    color: var(--white);
+    background: linear-gradient(100.37deg, rgb(236, 0, 139) 0%, rgb(241, 90, 34) 100%);;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}

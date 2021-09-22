@@ -1,0 +1,58 @@
+.container-vmware {
+    inline-size: 100%;
+    block-size: auto;
+    background: var(--black);
+    display: flex;
+}
+
+.img-left {
+    background-image: url(../images/img-vmware.png);
+    background-repeat: no-repeat;
+    inline-size: 65vw;
+    background-size: cover;
+    block-size: 34.099375rem;  
+    background-position: center; 
+}
+
+.div-text_vmware {
+    inline-size: 35vw;
+    block-size: 34.099375rem; 
+    background: linear-gradient(100.37deg, rgb(236, 0, 139) 0%, rgb(241, 90, 34) 100%);
+    display: flex;    
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.div-text_vmware > * {
+    display: block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.ware {
+    inline-size: 7.5rem;
+    block-size: 1.24125rem;  
+}
+
+.winning {
+    font-size: 1.75rem;
+    color: var(--white);
+}
+
+.text-evolving {
+    font-size: 1.0625rem;
+    color: var(--white);
+    line-height: 1.7rem;
+}
+
+.how {
+    border: .1rem var(--black) solid;
+    background: var(--black);
+    color: var(--white);
+    border-radius: .2rem;
+    padding: 0.7rem 4.5rem ;
+    font-size: .9rem ;
+    text-decoration: none;
+}

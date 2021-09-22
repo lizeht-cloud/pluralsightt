@@ -1,0 +1,96 @@
+.twitter-space {
+    inline-size: 100%;
+    background: var(--black);
+    margin: auto;              
+}
+
+.container-twitter {
+    inline-size: 80.9375rem;
+    block-size: 28,078125rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.follow {
+    color: var(--primary);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-top: 6rem;
+}
+
+.share {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.span {
+    color: var(--white);
+    font-size: 2.5rem;
+    margin-top: 13rem;
+}
+.container-twitter_span {
+    display: flex;
+    flex-direction: row;
+}
+.file-three {
+   display: flex;
+   flex-direction: row;
+   gap: 2rem;
+   margin-top: 6rem;
+   margin-bottom: 12rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
+.three-column {
+    inline-size: 23,75rem;
+    block-size: 17rem;
+    background: var(--white);
+    border-radius: 5px;
+}
+
+.full-text {
+    line-height: 1.8rem;
+    margin: 1rem;
+}
+
+.full-text span {
+    color: var(--primary);
+}
+
+.column-top {
+    display: flex;
+}
+
+.mini {
+    margin: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+.div-skyler {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    margin-top: .6rem;
+}
+.div-skyler a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: .5rem;
+}
+.div-skyler :hover {
+    color: #1DA1F2;
+}
+
+.tw {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
+}

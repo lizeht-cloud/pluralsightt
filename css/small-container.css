@@ -1,0 +1,58 @@
+.small-container {
+    inline-size: 100%;
+    block-size: auto;
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-small {
+    inline-size: 80.9375rem;
+    block-size: 42.151875rem;
+    display: flex;
+    margin-left: -1rem;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+}
+
+.keep {
+    color: var(--primary);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.discover {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+.div-forr {
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+}
+
+.div-forr img {
+    inline-size: 20rem;
+    block-size: 10rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1.7rem;
+}
+
+.div-forr h3 {
+    color: var(--yellow);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 1.7rem;
+}
+
+.div-forr p {
+    color: var(--white);
+    line-height: 1.5rem;
+}

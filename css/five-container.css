@@ -1,0 +1,103 @@
+.five-container {
+    background: var(--black);
+    inline-size: 100%;
+    block-size: 38.125rem;
+}
+
+.container-center_five {
+    inline-size: 80.9375rem;
+    block-size: 38.125rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.duo-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.div-for {
+    display: flex;
+    flex-direction: row;
+    inline-size: 21.39975rem;
+    block-size: 10.3125rem;
+    padding: 1.25rem 1.25rem;
+    background: var(--gray50);
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+
+.div-for a {
+    text-decoration: none;
+}
+
+.path {
+    color: var(--primary);
+    font-size: 0.8125rem;
+    font-weight: 600;
+}
+
+.javascript {
+    color: var(--white);
+    font-size: 1.375rem;
+}
+
+.courses {
+    color: var(--gray30);
+    font-size: 1.0625rem;
+}
+
+.taje {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-top {
+    inline-size: 6.25rem;
+    block-size: 6.25rem;
+    margin-top: -1.5rem;
+    margin-right: -1.7rem;
+}
+
+.popular-right > *{
+    margin-bottom: 1.3rem;
+}
+
+.trending {
+    color: var(--primary);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3125rem;
+}
+
+.popular {
+    color: var(--white);
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+.focus {
+    color: var(--white);
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.alone-view {
+    color: var(--white);
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.3125;
+    text-decoration: none;
+}

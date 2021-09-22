@@ -1,7 +1,13 @@
 @import "./css/header-top.css";
 @import "./css/header-bottom.css";
 @import "./css/five-container.css";
-
+@import "./css/medium-container.css";
+@import "./css/small-container.css";
+@import "./css/container-vmware.css";
+@import "./css/twitter-space.css";
+@import "./css/one.css";
+@import "./css/insights.css";
+@import "./css/footer.css";
 * {
     margin: 0;
     padding: 0;

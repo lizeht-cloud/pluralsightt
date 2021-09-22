@@ -1,0 +1,47 @@
+.one {
+    background-image: url('../images/img-one.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    inline-size: 100%;
+    block-size: 32rem;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: var(--white);
+    inline-size: 80.9375rem;
+    block-size: 37,0625rem;
+    padding-right: 40rem;
+    
+}
+
+.div-one_p {
+    margin-left: 2rem;
+}
+.one-p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    
+}
+
+.text-p {
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.a-one {
+    border: .1rem var(--white) solid;
+    border-radius: .2rem;
+    padding: .8rem 4.5rem;
+    font-size: .9rem;
+    background: var(--black);
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+}

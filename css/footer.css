@@ -1,0 +1,93 @@
+.footer {
+    inline-size: 100%;
+    block-size: auto;
+    background: var(--gray60);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-footer {
+    inline-size: 80.9375rem;
+    block-size: 37,25rem;
+    margin: auto;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.solutions {
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.div-seven {
+    color: var(--gray30);
+    font-size: .5rem;
+    
+}
+
+.seven {
+    padding-bottom: 1rem;
+    font-size: .5rem;
+}
+.french {
+    color: var(--gray30);
+    font-size: 0,9375rem;
+}
+
+.terms {
+    color: var(--gray30);
+    font-size: .5rem;
+}
+
+.terms-of {
+    color: var(--white);
+    font-size: .5rem;
+    font-weight: 600;
+}
+
+.ps {
+    margin-bottom: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.di_solutions {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 6rem;
+    
+}
+.div-solutions {
+    display: flex;
+    gap: 9rem;
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+}
+
+.div-globe {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    gap: 2rem;
+}
+
+.div-ps {
+    display: flex;
+    gap: .5rem;
+}
+.div-copy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    gap: 2rem;
+}
+
+.hr {
+    color: var(--gray30);
+}
