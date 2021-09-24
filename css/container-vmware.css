@@ -20,14 +20,15 @@
     background: linear-gradient(100.37deg, rgb(236, 0, 139) 0%, rgb(241, 90, 34) 100%);
     display: flex;    
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     justify-content: center;
 }
 
 .div-text_vmware > * {
-    display: block;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: flex-start;
 }
 
 
@@ -48,11 +49,13 @@
 }
 
 .how {
-    border: .1rem var(--black) solid;
-    background: var(--black);
-    color: var(--white);
-    border-radius: .2rem;
-    padding: 0.7rem 4.5rem ;
-    font-size: .9rem ;
     text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    background: var(--black);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: .3rem;
 }
