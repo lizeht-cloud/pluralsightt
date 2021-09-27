@@ -94,10 +94,17 @@
     line-height: 1.5rem;
 }
 
-.alone-view {
+.simple_arrow  {
     color: var(--white);
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
     line-height: 1.3125;
     text-decoration: none;
+}
+
+.simple_arrow::after {
+    margin-left: 4px;
+    font-family: FontAwesome;
+    content: ">";
+    color: #ec008c;
 }

@@ -6,8 +6,8 @@
 
 .header-top_container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    
     inline-size: 80.9375rem;
     block-size: 5.625rem;
     margin: auto;
@@ -22,6 +22,31 @@
     padding: 2.0625rem 1.49rem;
 }
 
+.top {
+    display: flex;
+    align-items: center;
+    gap: 15.5rem;
+}
+.a-span {
+    padding: 0 !important;
+}
+.resources {
+    padding: 0 !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.arrow {
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    transform: rotate(45deg);
+    border: solid;
+    border-width: 0 2px 2px 0;
+    padding: 2px;
+    color: #fff;
+    right: 0;
+    transition: all .3s ease;
+}
 .principal-logo {
     inline-size: 11.25rem;
     block-size: 2.5rem;
@@ -41,6 +66,10 @@
     list-style: none;
 }
 
+.enlace-svg {
+    padding-right: 0 !important;
+}
+ 
 .border-transparent {
     border: .1rem var(--white) solid;
     border-radius: .2rem;

@@ -38,9 +38,9 @@
 .a-one {
     border: .1rem var(--white) solid;
     border-radius: .2rem;
-    padding: .8rem 4.5rem;
+    padding: .8rem 1rem;
     font-size: .9rem;
-    background: var(--black);
+    background: transparent;
     text-decoration: none;
     color: var(--white);
     font-weight: 600;

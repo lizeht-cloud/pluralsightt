@@ -15,7 +15,7 @@
 }
 
 .div-text_vmware {
-    inline-size: 35vw;
+    inline-size: 47vw;
     block-size: 34.099375rem; 
     background: linear-gradient(100.37deg, rgb(236, 0, 139) 0%, rgb(241, 90, 34) 100%);
     display: flex;    
@@ -24,13 +24,26 @@
     justify-content: center;
 }
 
-.div-text_vmware > * {
+.center-vmware {
     display: flex;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    align-items: flex-start;
+    justify-content: space-around;
+}
+.text-evolving {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1.0625rem;
+    color: var(--white);
 }
 
+.div-text_vmware > * {
+    
+    display: flex;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    align-items: flex-start;
+}
 
 .ware {
     inline-size: 7.5rem;
@@ -40,12 +53,7 @@
 .winning {
     font-size: 1.75rem;
     color: var(--white);
-}
-
-.text-evolving {
-    font-size: 1.0625rem;
-    color: var(--white);
-    line-height: 1.7rem;
+    line-height: 2rem;
 }
 
 .how {
@@ -55,7 +63,7 @@
     background: var(--black);
     padding-top: 1rem;
     padding-bottom: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     border-radius: .3rem;
 }
