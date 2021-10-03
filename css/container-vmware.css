@@ -66,4 +66,16 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-radius: .3rem;
+    transition: .6s;
+}
+
+.how:hover {
+    box-shadow: 10px 25px 30px rgba(0, 0, 0, .5);
+}
+
+.text-evol {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: var(--white);
 }

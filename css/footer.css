@@ -8,10 +8,9 @@
 }
 
 .container-footer {
-    inline-size: 80.9375rem;
+    inline-size: 86.5rem;
     block-size: 37,25rem;
     margin: auto;
-    padding-left: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +19,7 @@
 .div-todo {
     display: flex;
     flex-direction: column;
-   justify-content: center;
+    justify-content: center;
 }
 .solutions {
     font-size: .8rem;
@@ -50,14 +49,14 @@
 
 .terms-of {
     color: var(--white);
-    font-size: .5rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
 .ps {
-    margin-bottom: 2rem;
     width: 2rem;
     height: 2rem;
+    margin-inline-end: 1rem;
 }
 
 .di_solutions {
@@ -69,38 +68,35 @@
 }
 .div-solutions {
     display: flex;
-    justify-content: center;
-    gap: 9rem;
+    justify-content: space-between;
     margin-bottom: 4rem;
 }
 
+
+
 .div-globe {
     display: flex;
-    align-items: stretch;
-    justify-content: center;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    margin-right: 55rem;
     gap: 2rem;
 }
 
 .div-ps {
     display: flex;
+    align-items: center;
     gap: .5rem;
 }
 .div-copy {
     display: flex;
-    justify-content: space-around;
-    margin-top: 3rem;
-    margin-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
     gap: 2rem;
 }
 
 .hr {
-    display: flex;
-    margin-left: 2.8rem;
-    margin-right: 2.8rem;
-    color: var(--gray30);
+    border: .5px solid rgb(65, 62, 62);
+    background: transparent;
 }
 
 .icon-footer {
@@ -111,4 +107,12 @@
 .img-footer {
     width: 1rem;
     height: 1rem;
+}
+
+.ultimate {
+    display: flex;
+}
+
+.ultimate > * {
+    margin-inline-start: 2.4rem ;
 }

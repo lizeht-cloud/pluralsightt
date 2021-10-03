@@ -2,83 +2,76 @@
     width: 100%;
     height: auto;
     background: var(--gray50);
+    position: sticky;
+    top: 0;
 }
 
 .header-top_container {
     display: flex;
-    justify-content: center;
-    
-    inline-size: 80.9375rem;
-    block-size: 5.625rem;
+    align-items: center;
+    justify-content: space-between;
     margin: auto;
+    inline-size: 87.5rem;
+    block-size: 5.625rem;
 }
 
-.header-top_container a {
-    font-size: .9rem;
-    font-weight: 700;
-    line-height: 1.3125rem;
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.cotainer-logo {
+    gap: 2rem;
+}
+
+.fa-angle-down:before {
+    content: "\f107";
+    color: var(--white);
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.nav-principal {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-inline-start: 2.4rem;
+}
+
+.nav-secundary a {
     color: var(--white);
     text-decoration: none;
-    padding: 2.0625rem 1.49rem;
+    font-size: .95rem;
+    line-height: 1.4rem;
+    font-weight: 700;
+    vertical-align: text-bottom;
 }
 
-.top {
-    display: flex;
-    align-items: center;
-    gap: 15.5rem;
-}
-.a-span {
-    padding: 0 !important;
-}
-.resources {
-    padding: 0 !important;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-.arrow {
-    display: inline-block;
-    height: 4px;
-    position: relative;
-    transform: rotate(45deg);
-    border: solid;
-    border-width: 0 2px 2px 0;
-    padding: 2px;
-    color: #fff;
-    right: 0;
-    transition: all .3s ease;
-}
-.principal-logo {
-    inline-size: 11.25rem;
-    block-size: 2.5rem;
-    margin-right: 1.4rem;
-}
-
-.top-left {
+.header-right {
     display: flex;
     align-items: center;
 }
 
-.nav-list {
-    display: flex;
+.fa-search:before {
+    content: "\f002"; 
+    color: var(--white);
+    cursor: pointer;
 }
 
-.nav-list li {
-    list-style: none;
+.try-for {
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid var(--white);
+    border-radius: 3.3%;
+    margin-inline-start: 1.3rem;
+    padding-inline: 1.3rem;
+    padding-block: 0.65rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: bolder;
 }
 
-.enlace-svg {
-    padding-right: 0 !important;
-}
- 
-.border-transparent {
-    border: .1rem var(--white) solid;
-    border-radius: .2rem;
-    padding: .8rem 1.6rem !important;
-    font-size: .9rem !important;
-}
-
-
-.border-transparent:hover {
-    padding: .9rem 1.7rem !important;
-    transition: .4s;
+.try-for:hover {
+    border: 2px solid var(--white);
 }

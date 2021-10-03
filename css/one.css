@@ -14,7 +14,7 @@
     flex-direction: column;
     margin: auto;
     color: var(--white);
-    inline-size: 80.9375rem;
+    inline-size: 90.5rem;
     block-size: 37,0625rem;
     padding-right: 40rem;
     
@@ -30,9 +30,14 @@
 }
 
 .text-p {
+    font-size: 1.1rem;
+    color: #eeeeee;
+    font-weight: 400;
+    text-align: justify;
     line-height: 1.5rem;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
+    inline-size: 38rem;
 }
 
 .a-one {
@@ -44,4 +49,8 @@
     text-decoration: none;
     color: var(--white);
     font-weight: 600;
+}
+
+.a-one:hover {
+    border: 2.5px solid var(--white);
 }
