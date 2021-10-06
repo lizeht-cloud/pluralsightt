@@ -16,7 +16,7 @@
 }
 
 :root {
-    font-size: 16px;
+    font-size: 14px;
     --primary: #E40084;
     --white: #ffffff;
     --black: #000000;
@@ -26,4 +26,10 @@
     --gray50: #212121;
     --gray60: #222222;
     --yellow: #FFBA0E;
+}
+
+@media screen and (min-width:2560px) {
+    :root {
+        font-size: 20px !important;
+    }
 }

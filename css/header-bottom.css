@@ -39,7 +39,7 @@
 .button-header_bottom{
     display: flex;
     justify-content: space-between;
-    padding-right: 5rem;
+    padding-right: 3rem;
 }
 
 .button-header_bottom a {
@@ -54,7 +54,7 @@
     border: .1rem var(--black) solid;
     background: var(--black);
     border-radius: .2rem;
-    padding: 0.7rem 4.5rem !important;
+    padding: 0.6rem 4.5rem !important;
     font-size: .9rem !important;
     transition: 1s;
 }
@@ -68,7 +68,7 @@
     border-radius: .2rem;
     padding: .8rem 4.5rem;
     font-size: .9rem;
-    min-width: 250px;
+    
 }
 
 .try:hover {

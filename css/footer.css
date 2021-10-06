@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
 }
-
+9
 .div-todo {
     display: flex;
     flex-direction: column;
@@ -29,17 +29,31 @@
 
 .div-seven {
     color: var(--gray30);
-    font-size: .5rem;
-    
 }
 
 .seven {
     padding-bottom: 1rem;
-    font-size: .5rem;
+}
+
+.seven:hover {
+    color: var(--white);
+}
+.parrafo-footer {
+    font-size: .1rem;
+}
+
+.parrafo-footer:hover {
+    color: var(--white);
+    transition: .3s all;
 }
 .french {
     color: var(--gray30);
     font-size: 0,9375rem;
+}
+
+.ingles {
+    color: var(--white);
+    font-size: 0,9375rem; 
 }
 
 .terms {
