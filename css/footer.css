@@ -33,6 +33,7 @@
 
 .seven {
     padding-bottom: 1rem;
+    font-size: .6rem;
 }
 
 .seven:hover {
@@ -48,12 +49,12 @@
 }
 .french {
     color: var(--gray30);
-    font-size: 0,9375rem;
+    font-size: .8rem;
 }
 
 .ingles {
     color: var(--white);
-    font-size: 0,9375rem; 
+    font-size: .8rem; 
 }
 
 .terms {
